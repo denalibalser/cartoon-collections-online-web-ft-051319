@@ -10,7 +10,7 @@ end
 
 def summon_captain_planet(array)
   array.collect do |element|
-
+  binding.pry
   end
 
 end
