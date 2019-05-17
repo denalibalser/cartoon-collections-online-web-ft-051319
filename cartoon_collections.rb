@@ -12,10 +12,8 @@ def summon_captain_planet(array)
   new_array = []
   array.collect do |element|
     new_array << "#{element.capitalize}!"
-
    end
    new_array
-   binding.pry
   end
 
 
