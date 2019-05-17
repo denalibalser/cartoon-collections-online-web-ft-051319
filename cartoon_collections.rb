@@ -21,9 +21,9 @@ def long_planeteer_calls(array)
   array.each do |element|
     #binding.pry
     if element.length > 4
-      return false
-    else
       return true
+    else
+      return false
     end
   end
 end
