@@ -9,8 +9,10 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
+  new_array = []
   array.collect do |element|
-  binding.pry
+    new_array << "#{element.capitalize}!"
+   end 
   end
 
 end
