@@ -19,10 +19,10 @@ def summon_captain_planet(array)
 
 def long_planeteer_calls(array)
   array.each do |element|
-    binding.pry
+    #binding.pry
     if element > 4
       return false
-    else 
+    else
       return true
     end
   end
