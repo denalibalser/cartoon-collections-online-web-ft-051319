@@ -1,5 +1,11 @@
 def roll_call_dwarves(array)
-  
+  array.each_with_index do |name, index|
+    index = 1
+    if array.length > 0
+      puts "#{index}. #{name}"
+      index += 1 
+    end
+  end
 end
 
 def summon_captain_planet# code an argument here
