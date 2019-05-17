@@ -14,6 +14,7 @@ def summon_captain_planet(array)
     new_array << "#{element.capitalize}!"
     binding.pry
    end
+   new_array
   end
 
 end
