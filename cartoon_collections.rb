@@ -23,7 +23,7 @@ def summon_captain_planet(array)
       return true
     else
       return false
-    i = i + 1
+    i += 1
     end
   end
 
